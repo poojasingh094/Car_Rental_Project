@@ -1,0 +1,223 @@
+.header {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+}
+span {
+    color: #6366f1;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.btn-1 {
+    padding: 10px 20px;
+    background-color: #6366f1;
+    font-size: 1rem;
+    border: none;
+    white-space: nowrap;
+    border-radius: 10px;
+    font-weight: 500;
+    color: white;
+}
+.content-header {
+    background-color: #F8F8FF;
+    height: 70px;
+    margin-top: 0px;
+}
+.my-row {
+    height: 100vh;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+p{
+    font-size: 18px;
+}
+
+.image {
+    width: 150%; 
+    height: 100%; 
+    object-fit: cover; 
+    position: relative; 
+    left: -25%; 
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px; 
+    align-content: space-evenly;
+}
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -10%; 
+}
+
+.btn-2{
+    padding: 10px 20px;
+    background-color: #6366f1;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+.howit {
+    text-align: center;
+    padding: 10px 0; 
+}
+
+.heading {
+    margin-bottom: 50px; 
+}
+ h2{
+    font-weight: 700;
+    font-size: 22px;
+ }
+.card {
+    background: white; 
+    padding: 24px; 
+    border-radius: none; 
+    box-shadow: none; 
+    text-align: center; 
+}
+.card i {
+    font-size: 2rem; 
+    color: #6366f1;
+    margin-bottom: 15px;
+}
+.products {
+    padding: 20px 0; 
+}
+
+.products .heading {
+    text-align: center; 
+    margin-bottom: 40px; 
+}
+
+.products .card {
+    background: white; 
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    height: 100%;
+}
+
+.products .card img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+}
+.products .btn {
+    display: inline-block;
+    margin-top: 10px; 
+    padding: 10px 20px; 
+    background-color: #6366f1;
+    color: white; 
+    border-radius: 5px; 
+    text-decoration: none; 
+}
+
+.products .btn:hover {
+    background-color: brown; 
+}
+.reviews {
+    padding: 20px 0; 
+}
+
+.reviews .heading {
+    text-align: center; 
+    margin-bottom: 30px; 
+}
+
+.reviews .review-container {
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+
+.reviews .card {
+    background: #f8f9fa; 
+    padding: 20px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    width: 300px; 
+}
+
+.reviews .img1 {
+    margin-bottom: 15px; 
+}
+
+.reviews .img1 img {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+.reviews h2 {
+    font-size: 1.25rem; 
+    margin-bottom: 10px; 
+}
+
+.reviews .stars {
+    margin-bottom: 10px; 
+}
+
+.reviews .stars .nav-icon {
+    color: #f39c12; 
+    font-size: 1.2rem; 
+    margin-right: 5px; 
+}
+
+.reviews p {
+    font-size: 0.875rem; 
+    color: #6c757d; 
+}
+.about {
+    background-color: #f9f9f9;
+}
+
+.about_text h3 {
+    font-size: 2rem; 
+    margin-bottom: 20px; 
+}
+
+.about_text p {
+    font-size: 1.1rem; 
+    line-height: 1.6; 
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    border-left: 2px solid #e0e0e0; 
+    padding-left: 70px; 
+}
+
+.contact-info h4 {
+    font-size: 1.7rem; 
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 1.3rem; 
+    margin-bottom: 5px; 
+}
+
+.btn {
+    display: inline-block; 
+    padding: 10px 20px; 
+    font-size: 1rem; 
+    margin-top: 20px; 
+}
+
+
+
